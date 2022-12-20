@@ -4,6 +4,7 @@ import '../styles/navbar.css'
 
 
 
+
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 
@@ -21,7 +22,7 @@ function Navbar() {
             setExpandNavbar((prev) => !prev);
           }}
         >
-          
+          <i class="fa-sharp fa-solid fa-bars"></i>
         </button>
       </div>
       <div className="links">
