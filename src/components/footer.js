@@ -1,5 +1,6 @@
 import React from 'react'
 import { InstagramFilled, TwitterCircleFilled, FacebookFilled, LinkedinFilled } from '@ant-design/icons'
+import '../styles/footer.css'
 
 function footer() {
   return (
@@ -10,8 +11,9 @@ function footer() {
                 <FacebookFilled />
                 <LinkedinFilled />
             </div>
+            <p> &copy; 2022 Nitin Jain</p>
         </div>
   )
 }
 
-export default footer
+export default footer;
