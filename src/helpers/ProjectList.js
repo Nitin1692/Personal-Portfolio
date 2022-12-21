@@ -10,7 +10,6 @@ export const ProjectList = [
         Name: "Dédié Décor",
         Image: proj1,
         Used: "Laravel PHP, Javascript, CSS, Html",
-        link: 'https://github.com/Nitin1692?tab=repositories'
     },
     {
         Name: "DNA CLassification",
