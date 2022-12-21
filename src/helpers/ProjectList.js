@@ -12,7 +12,7 @@ export const ProjectList = [
         Used: "Laravel PHP, Javascript, CSS, Html",
     },
     {
-        Name: "DNA CLassification",
+        Name: "DNA Classification",
         Image: proj2,
         Used: "Jupyter, Python, ML Algorithms"
     },
