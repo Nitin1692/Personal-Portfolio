@@ -10,7 +10,7 @@ function Projects() {
         <div className="projectList">
             {ProjectList.map((project, idx) => {
                 return (
-                    <ProjectItem id={idx} name={project.Name}  />
+                    <ProjectItem id={idx} Name={project.Name} Image={project.Image}  />
                 );
             })}
         </div>
