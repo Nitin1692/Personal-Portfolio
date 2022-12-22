@@ -97,14 +97,7 @@
     .list {
       padding: 0;
     }
-    .image{
-      clip-path: circle(50% at 50% 50%);
-      width: 300px;
-      height: 300px;
-      position: relative;
-      top: -490px;
-      right: -95px;
-    }
+    
   
     .skills h2 {
       font-size: 30px;
@@ -128,4 +121,15 @@
     position: relative;
     top: -490px;
     right: -95px;
+  }
+
+   @media only screen and (max-width: 434px){
+    .image{
+      clip-path: circle(50% at 50% 50%);
+      width: 300px;
+      height: 300px;
+      position: relative;
+      top: -490px;
+      right: -95px;
+    }
   }
