@@ -4,7 +4,6 @@ import '../styles/navbar.css'
 
 
 
-
 function Navbar() {
   const [expandNavbar, setExpandNavbar] = useState(false);
 

@@ -2,6 +2,7 @@ import React from 'react'
 import { LinkedinFilled, GithubFilled } from '@ant-design/icons'
 import '../styles/home.css'
 
+
 function Home() {
   return (
     <div className="home">
