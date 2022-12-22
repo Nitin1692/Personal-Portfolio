@@ -1,6 +1,7 @@
 import React from 'react'
 import { LinkedinFilled, GithubFilled } from '@ant-design/icons'
 import '../styles/home.css'
+import Nitin from '../assets/Nitin Jain.jpg'
 
 
 function Home() {
@@ -22,13 +23,14 @@ function Home() {
           <GithubFilled onClick={githubClick} />
         </div>
       </div>
+      <img src={Nitin} alt="" srcset="" className="image" />
       <div className="skills">
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, Redux, HTML, CSS, NPM, BootStrap
+              ReactJS, Redux, HTML, CSS, BootStrap
             </span>
           </li>
           <li className="item">
