@@ -37,7 +37,7 @@ function ProjectDisplay() {
   return (
     <div className="project">
         <h1> {project.Name}</h1>
-        <img src={project.Image} />
+        <img src={project.Image} alt="" />
         <p>
             <b>Used:</b> {project.Used}
         </p>
