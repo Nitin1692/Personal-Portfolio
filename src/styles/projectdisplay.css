@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
 .project {
     width: 100%;
     height: calc(100vh - 100px);
@@ -9,7 +11,8 @@
   
   .project h1 {
     margin-top: 50px;
-    color: #3e497a;
+    color: #0080FF;
+    font-family: 'Acme', sans-serif;
     font-size: 35px;
   }
   .project img {
@@ -19,7 +22,8 @@
   
   .project p {
     font-size: 40px;
-    color: #3e497a;
+    font-family: 'Prosto One', cursive;
+    color: #FF007F;
   }
   
   .project svg {

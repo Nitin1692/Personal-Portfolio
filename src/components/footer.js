@@ -1,5 +1,5 @@
 import React from 'react'
-import { InstagramFilled, TwitterCircleFilled, FacebookFilled, LinkedinFilled } from '@ant-design/icons'
+import { InstagramFilled, TwitterCircleFilled, FacebookFilled } from '@ant-design/icons'
 import '../styles/footer.css'
 
 function footer() {
