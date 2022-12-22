@@ -4,14 +4,22 @@ import '../styles/home.css'
 
 
 function Home() {
+  function linkedinClick(e) {
+    e.preventDefault();
+    window.location.href = "https://www.linkedin.com/in/nitinbca/";
+  }
+  function githubClick(e){
+    e.preventDefault();
+    window.location.href = "https://github.com/Nitin1692";
+  }
   return (
     <div className="home">
       <div className="about">
         <h2> Hi, My Name is Nitin</h2>
         <div className="prompt">
           <p>To make use of my interpersonal skills to achieve goals of a company that focuses on customer satisfaction and customer experience.</p>
-          <LinkedinFilled />
-          <GithubFilled />
+          <LinkedinFilled onClick={linkedinClick} />
+          <GithubFilled onClick={githubClick} />
         </div>
       </div>
       <div className="skills">

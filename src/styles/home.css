@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&family=Nuosu+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 .home {
     width: 100%;
     align-items: center;
@@ -18,10 +20,15 @@
   }
   
   .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
     color: #e9d35b;
     height: 50px;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s steps(18) infinite alternate;
+    border-right: 3px solid #e9d35b;
   }
   
   .about .prompt {
@@ -30,8 +37,14 @@
   }
   .prompt svg {
     font-size: 60px;
-    margin: 5px;
+    margin: 15px;
     color: white;
+  }
+
+  .prompt p{
+    font-family: 'Playball', cursive;
+    font-size: 30px;
+    color: #00CCCC;
   }
   
   .skills {
@@ -76,6 +89,16 @@
   
     .skills h2 {
       font-size: 30px;
+    }
+  }
+
+  @keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+      width: 18ch;
+
     }
   }
   
